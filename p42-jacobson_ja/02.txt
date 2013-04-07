@@ -37,8 +37,8 @@ making and the health of their endeavors;
 Common ground for the discussion, improvement, comparison, and sharing
 of software-engineering methods and practices;
 
-チームにおいて、個別に定義、実装（sourced）および実践された仕事の
-仕方を集め、構成し、継続的に改善するためのフレームワーク
+チームが、別々に定義されたり由来が違うプラクティスを集めることによって、
+チーム独自の仕事の仕方を組み立て、継続的に改善するためのフレームワーク。
 A framework for teams to assemble and continuously improve their way
 of working by the composition of separately defined, and sourced,
 practices;
