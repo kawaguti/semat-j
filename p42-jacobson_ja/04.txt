@@ -1,0 +1,101 @@
+**Determine Where the Team Is Using the Kernel
+
+**カーネルによるチームの現在地の特定
+
+Let’s assume that Smith and his team are six weeks into development.
+They have provided an early demonstration of the system to their
+stakeholders, who are pleased and provide valuable feedback. The
+system is not yet usable by end users, however. You can use the kernel
+to do this in a number of ways. If you are using alpha state cards,
+then you can do a walk-through as follows:
+
+スミスや彼のチームが開発を始めて6週目であるとする。彼らは既にステークホルダに対して初期のシステムデモを示し、ステークホルダは喜んで価値あるフィードバックを与えてくれている。しかし、システムはまだユーザが使える状態にはない。ここで、カーネルを様々な方法で活用できる。もしアルファ状態のカードを用いている場合は、以下を一通り進められる。
+
+1. Lay out the cards for each alpha in a row on a table with the first
+state on the left and the final state on the right.
+
+1. 各アルファのカードを、テーブル上で横一列に、左端に最初の状態、右端が最終状態となるように並べる。
+
+2. Walk through each state and ask your team if you have achieved that state.
+
+各状態を一通り読み進めて、チームにおいて当該状態に達しているかどうかを問いかける。
+
+3. If the state is achieved, move that state card to the left.
+Continue with the next card until you get to the state that your team
+has not yet achieved.
+
+もしある状態に達している場合は、当該状態のカードを左側に寄せる。これを、チームが未到達の状態のカードに至るまで続ける。
+
+4. Move this state card and the rest of the pending state cards to the
+right. Figure 5 shows the states Smith’s team has achieved on the
+left, and those not yet achieved on the right. For simplicity, Figure
+5 shows only three of the kernel alphas.
+
+未到達の状態のカードおよび未検討の状態のカードを右側に移動させる。図5において、スミスのチームが達した状態のカードは左側に、達していない状態のカードは右側に位置している。簡単のため、図5ではカーネルの3つのアルファのみを示している。
+
+*Determine where to go with the kernel.
+Once the team agrees on the current alpha states, the members discuss
+what the next desired “target”states are to guide their planning. The
+team agrees to use the immediate next alpha states to help establish
+the objectives of the next iteration, as shown in Figure 6.
+
+*カーネルによる行き先の決定
+現在のアルファの状態にチームが同意したら、以降の計画をガイドするために、メンバは次の望ましいターゲットの状態を議論する。チームは、次のイテレーションの目標を打ち立てるために、図6に示すように、すぐ隣のアルファの状態を用いることに同意したとしよう。
+
+The name of the alpha state supplies a hint to understanding what
+needs to be achieved to reach a state. Team members can find out more
+by reading and understanding the alphastate checklist. By going
+through the states one by one for each alpha, a team quickly becomes
+familiar with what is required to achieve each state. In this way the
+team learns about the kernel alphas at the same time as they determine
+their current state of development and their next target states.
+
+アルファの状態の名前は、当該状態に至るために必要な事柄を理解するためのヒントを与えてくれる。さらにチームメンバは、アルファ状態のチェックリストを読んで理解することでより多くを見出すことができる。各アルファを一つずつ確認することで、チームは各状態を達成するために必要な事柄をよく知るようになる。このようにして、チームはカーネルのアルファを学ぶと同時に、開発の現在の状態および次のターゲットとなる状態を決定する。
+
+*Determine how to get there with the kernel.
+Smith and his team look at the next target states and agree that they
+need to establish some priorities. First, they need to determine their
+way of working: working well; then the software system: usable; and
+finally requirements: addressed. The reason is simple; not having the
+way of working: working well would impede their attempts to get the
+software system: usable. In addition, they agree on the priority for
+the missing requirementitems necessary to achieve the requirements:
+addressed state.
+
+*カーネルによる行き方の決定
+スミスと彼のチームは次のターゲットとなる状態を確認し、優先順位付けの必要性について合意した。そこで優先順位として、まず第一に仕事の仕方「うまく働けている」とし、第二にソフトウェアシステム「利用可能となっている」とし、最後に、要求「十分に扱えている」とすることとした。その理由は簡単で、仕事の仕方がうまくいっていなければ、ソフトウェアシステムを利用可能とすることが妨げられてしまうだろう。さらに、チームは要求満足のために不足している要求事項を取り扱うよう「十分に扱えている」の優先度について同意した。
+
+Smith and his team next discuss what needs to be done to achieve these
+states, as shown in the accompanying table. By going through the
+target alpha states, Smith is able to determine a set of objectives
+and tasks for the next iteration.
+
+スミスと彼のチームは続いて、図6下の表に示すように、それらの状態に達するために必要な事柄を議論した。ターゲットとなるアルファの状態を確認する中で、スミスは次のイテレーションにおける目標とタスクを決定できた。
+
+*How the kernel helps in planning iterations.
+A good plan must be inclusive, meaning that it includes all essential
+items and covers the whole team. It must also be concrete, so it is
+actionable for the team. The team must also have a way to monitor its
+progress against the plan. The kernel helps you achieve this as
+follows:
+
+*イテレーション計画におけるカーネルの支援
+よい計画は包括的でなければならない。包括的とは、全ての本質的な事項を含み、チーム全体をカバーしていることを意味する。また計画は、具体的でなければならない。つまり、チームにとって実施可能な必要がある。さらにチームは計画に対する進展を監視する方法を持たなければならない。カーネルはそれらの達成にあたり以下を支援する。
+
+Inclusive.
+The kernel alphas serve as reminders across the different dimensions
+of software development, helping create a plan that addresses all
+dimensions in a balanced way.
+
+包括的:
+カーネルのアルファは、ソフトウェア開発の異なる次元をまたがった備忘録として機能する。そこで、全ての次元をバランスよく扱う計画の策定がしやすくなる。
+
+Concrete.
+The checklists for each alpha state hint at what you need to do in the
+iteration. The same checklists help determine your progress by making
+clear what you have done and comparing this with what you intended to
+do.
+
+具体的:
+各アルファの状態のチェックリストは、イテレーションにおいてすべき事柄のヒントを与える。同チェックリストにより、達成した事柄を明確として、本来達成すべきと意図した事柄との比較を通じて現在の進展を特定しやすくなる。
+

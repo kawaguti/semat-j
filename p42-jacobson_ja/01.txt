@@ -1,0 +1,137 @@
+--------------------------------------------------------------------------------------
+ACM queue( queue.acm.org) 記事
+--------------------------------------------------------------------------------------
+思考フレームワークを「アクション可能なカーネル(actionable kernel)」として提示する。
+--------------------------------------------------------------------------------------
+by Iver Jacobson, Pan-Wei NG, Paul E. Mcmahon,
+Ian Spence, and Svante Lidman
+--------------------------------------------------------------------------------------
+ソフトウェア工学のエッセンス:
+SEMAT カーネル(The Essence of Software
+Engineering: The Semat Kernel)
+--------------------------------------------------------------------------------------
+ソフトウェア開発に携わる人なら誰でも、それが複雑でリスクの高い仕事であること、そして参加者がよりよいソフトウェアにつながる新しいアイディアを、いつでも探していることを知っている。幸運なことに、ソフトウェア工学は、まだその若年代にあり毎年毎年ベストプラクティスの中に新しいイノベーションと改善を見ることができる、成長過程の専門分野だ。例えば、リーンとアジャイルの考え方(lean
+and agile thinking)がソフトウェア開発チームにもたらした改善と恩恵を見てみれば分かる。成功しているソフトウェア開発チームは、すばやく動くソフトウェアシステムを提供すること、ステークホルダーを満足させること、リスクに対処すること、そして仕事の仕方(way
+of working)を改善すること、これらのバランスをうまくとらなくてはならい。
+
+e Ve rYone Who deVeLops software knows it is a complex and risky
+business, and its participants are always on the lookout for new ideas
+that will lead to better software. Fortunately, software engineering
+is still a young and growing profession that sees innovations and
+improvements in best practices every year. Just look, for example, at
+the improvements and benefits that lean and agile thinking have
+brought to software-development teams. Successful software-development
+teams need to strike a balance between quickly delivering working
+software systems, satisfying their stakeholders, addressing their
+risks, and improving their ways of working.
+
+そのためには、現在の仕事の仕方(way of
+working)と採用しようとする新しいアイディアのギャップを橋渡しする、効果的な思考フレームワーク(thinking
+framework)が必要だ。この記事は、そのような思考フレームワークを「アクション可能なカーネル(actionable
+kernel)」の形で提示することで、リスクと仕事の仕方の改善のバランスさせようとしているチームを支援したい。
+
+For that, they need an effective thinking framework that bridges the
+gap between their current way of working and any new ideas they want
+to adopt. This article presents such a thinking framework in the form
+of an actionable kernel, which could benefit any team wishing to
+balance their risks and improve their way of working.
+
+このカーネルの構築、すなわち「ソフトウェア工学のエッセンス(the essence of software
+engineerin)」は、「ソフトウェア工学の方法論と理論(Software Engineering Methods and Theory
+(SEMAT) call for action (図
+1))」にインスパイアされたものであり、それに対する直接の回答でもある。そして、ソフトウェア工学の再定義に向けた小さな一歩でもあるのだ。
+
+Work on the kernel, the essence of software engineering, was inspired
+by and is a direct response to the Software Engineering Methods and
+Theory (SEMAT) call for action (see Figure 1). It is, in its own way,
+one small step toward redefining software engineering.
+
+SEMATは、2009年9月、人々のソフトウェア開発手法への関わり方を抜本的に変更する時期に来ていると感じた3人、Ivar
+Jacobson、Bertrand Meyer、Richard Soleyによって創設された(3,4,8) 。彼らは call for
+action を書き、いくつかの致命的な問題を特定し、なぜ行動が必要かを説明し、そして何が必要なのかを示唆した。その call for
+action とは、以下のようなものだ。
+
+SEMAT was founded in September 2009 by Ivar Jacobson, Bertrand Meyer,
+and Richard Soley, who felt the time had come to fundamentally change
+the way people work with softwaredevelopment methods.3,4,8 They wrote
+a call for action statement, which in a few lines identifies a number
+of critical problems, explains why there is a need to act, and
+suggests what needs to be done. The call for action is:
+
+現在のソフトウェア工学のいくつかの分野では、未成熟なプラクティス(immature practices)に苦しめられている。具体的には、以下のような問題を含む。
+
+* 言葉の流行が、工学の一分野というよりファッション業界のようだ。
+* しっかりした広く受け入れられた、理論的基礎の欠如。
+*  非常に多くの方法論(methods)とその派生。またそれらの違いがほとんど理解されずに作為的に強調されている。
+* 信頼できる実験的評価(experimental evaluation)と妥当性確認(validation)の欠如。
+* 産業界の実践(industry practice)と学界の研究(academic research)の乖離。
+
+Some areas of software engineering today suffer from immature practices.
+Specific problems include:
+˲ The prevalence of fads more typical of the fashion industry than an
+engineering discipline;
+˲ The lack of a sound, widely accepted theoretical basis;
+˲ The huge number of methods and method variants, with differences
+little understood and artificially magnified;
+˲ The lack of credible experimental evaluation and validation; and
+˲ The split between industry practice and academic research.
+
+ソフトウェア産業はファッションと流行に陥りやすいという、この call for action
+の前提は、ある人々には「新しいアイディアへの抵抗」と映ったようだが、それは真実からはかけ離れている。この記事および間もなく刊行される書籍（
+The Essence of Software Engineering—Applying the SEMAT Kernel),6
+）で見るように、SEMATの支援者は新しいアイディアに敏感である。
+
+The SEMAT call for action’s assertion that the software industry is
+prone to fads and fashions has led some people to assume that SEMAT is
+resistant to new ideas. This could not be further from the truth. As
+you will see in this article and in a soon-to-be-published book (The
+Essence of Software Engineering—Applying the SEMAT Kernel),6 SEMAT
+supporters are very keen on new ideas.
+
+彼らが反対しているのは、ソリューションが流行っているから（あるいは、政治的正当性(political
+correctness)や同僚からの圧力）という理由だけで不適切なソリューションを採用する人々の、non-lean、non-agileな行動なのである。
+
+What they are against is the non- lean, non-agile behavior that comes
+from people adopting inappropriate solutions just because they believe
+these solutions are fashionable—or because of peer pressure or
+political correctness.
+
+
+SEMATは、ソフトウェア工学を堅固な理論および検証された原則とベストプラクティスを基礎として、再建するプロセスを支援する。そのプロセスは、以下の特徴を備えている。
+* 広く合意された要素からなる、特定用途に拡張可能なカーネルを含み、
+* 技術の問題と人の問題の両方を扱い、
+* 産業界、学界、研究者そして、ユーザに支援され、
+* 要求とテクノロジの変化に応じて追随できるような拡張性を備えている。
+
+SEMAT supports a process to rede- fine software engineering based on a
+solid theory, proven principles, and best practices that:
+˲ Include a kernel of widely agreed- upon elements, extensible for
+specific uses;
+˲ Address both technology and peo- ple issues;
+˲ Are supported by industry, aca- demia, researchers, and users; and
+˲ Support extension in the face of changing requirements and technol- ogy.
+
+
+SEMATの call for action は、増え続ける署名者、サポーターのリスト(http://www.semat.org)
+を含む、広い支援者ベースを得た。2010年2月には、SEMATの創設者はcall for
+actionをビジョンステートメントとして発展させた(5)。
+
+The SEMAT call for action received a broad base of support, including
+a growing list of signatories and sup- porters (http://www.semat.org).
+In February 2010 the SEMAT founders developed the call for action into
+a vi- sion statement.5
+
+このビジョンに沿って、SEMATは2つのゴールに焦点を合わせた： 広く合意された要素からなるカーネルを見つけること、そして堅固な理論的基礎を定義すること。
+
+In accordance with
+this vision, SEMAT focused on two major goals: Finding a kernel of
+widely agreed-upon elements, and defining a solid theoretical basis.
+
+これら2つの作業はかなりの範囲で独立している。カーネルを見つけることは多数の既存手法の知識を備えた経験のあるソフトウェアエンジニアの実践的な活動である。理論的基礎を定義することはアカデミックな研究活動であり、成功といえる結果に到達するには、何年もかかるだろう。
+
+To a large extent these two tasks are independent of each other.
+Finding the kernel and its elements is a prag- matic exercise
+requiring experienced software developers with knowledge of many of
+the existing methods. Defin- ing the theoretical basis is academic
+research and may take many years to reach a successful outcome.
+

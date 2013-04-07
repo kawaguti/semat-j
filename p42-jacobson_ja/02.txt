@@ -1,0 +1,56 @@
+共通基盤の能力
+The Power of the Common Ground
+
+SEMATの最初のステップは、ソフトウェア開発における共通基盤を確認することで
+あった。この共通基盤は、すべてのソフトウェア開発活動において普遍的な必須
+要素のカーネルと、方法論と実践とを記述するためのシンプルな言語として示さ
+れる。
+SEMAT's first step was to identify a common ground for software
+engineering. This common ground is manifested as a kernel of essential
+elements that are universal to all software-development efforts, and
+a simple language for describing methods and practices.
+
+カーネルは、SEMAT OMG（Object Management Group）提案で初めて公開された。
+図1と図2で示すように、カーネルはソフトウェアシステムを開発するときに
+「我々が常に仕事で扱うこと(things we always work with)」と「我々が常に
+行うこと(things we always do)」とを、それぞれ少数含んでいる。
+The kernel was first published in the SEMAT OMG (Object Management
+Group) submission. As shown in figures 1 and 2, the kernel contains
+a small number of “things we always work with” and “things we
+always do” when developing software systems.
+
+「我々が常に保有しているべき技術」を定義する活動も進行中である。しかし、
+これはカーネルの将来のバージョンまで待たなければならない。
+Work is also ongoing to define the “skills we always need to have,”
+but this will have to wait until future versions of the kernel.
+
+カーネルは概念モデルである以上に、次のものを提供する：
+More than just a conceptual model, the kernel provides:
+
+チームにおいて、開発の進捗および努力(endeavors)の健全性を論じるための
+思考フレームワーク;
+A thinking framework for teams to reason about the progress they are
+making and the health of their endeavors;
+
+ソフトウェア開発の方法論と実践に関する議論、改善、比較および共有の
+ための共通基盤;
+Common ground for the discussion, improvement, comparison, and sharing
+of software-engineering methods and practices;
+
+チームにおいて、個別に定義、実装（sourced）および実践された仕事の
+仕方を集め、構成し、継続的に改善するためのフレームワーク
+A framework for teams to assemble and continuously improve their way
+of working by the composition of separately defined, and sourced,
+practices;
+
+開発されたソフトウェアならびに開発に用いられた方法論の品質を評価する
+ための、事例非依存な計測指標を定義する基礎(foundation)
+A foundation for defining practice-independent measures to assess
+the quality of the software produced and the methods used to produce
+it; and
+
+最も重要なこととして、どこにいるのか、次に何をすべきなのか、そして
+どこを改善すべきなのかを、チームが理解することを支援する方法
+Most importantly, a way of helping teams understand where they are,
+what they should do next, and where they need to improve.
+

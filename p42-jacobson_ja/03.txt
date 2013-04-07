@@ -1,0 +1,182 @@
+**The Big Idea
+**ビッグ・アイディア
+
+What is it that makes the kernel more than just a conceptual model of
+software engineering? What is it that is really new here? This can be
+summed up
+in its founding principles (see Figure 3), which really bring out
+three unique features of the kernel: it is actionable; it is
+extensible; and it is practical.
+
+カーネルを、ソフトウェアエンジニアリングの単なる概念モデル以上とするものは何か？何が新しいのか？それは、基礎を成す原則であり、原則が次の3つの特徴をカーネルにもたらしている:
+実施可能なこと（actionable）、拡張可能なこと、および、実践的なことである。
+
+*The kernel is actionable.
+*カーネルは実施可能である。
+
+A unique feature of the kernel is the way that it handles the “things
+to work with.”These are captured as alphas rather than work products
+(such as documents). An alpha is an essential element of the
+software-engineering endeavor - one that is relevant to an assessment
+of its progress and health. As shown in Figure 1, SEMAT has identified
+seven alphas: opportunity, stakeholders, requirements, software
+system, work, way of working, and team.
+
+カーネルの優れた特徴として、仕事に作用するものや事柄（Things to work
+with）を扱っているという点がある。それらは、文書のような仕事の成果物というよりも「アルファ（alpha;
+主要素）」として捉えられる。アルファとは、ソフトウェアエンジニアリングに努めるにあたり本質的な要素であり、ソフトウェアエンジニアリングの進展や健康状態の評価に関わっている。図1に示すように、SEMATでは7つのアルファを識別している:
+機会、ステークホルダ、要求、ソフトウェアシステム、仕事、仕事の仕方、チーム。
+
+The alphas are characterized by a simple set of states that represent
+their progress and health. As an example, the software system moves
+through the
+states of architecture selected: demonstrable, usable, ready,
+operational, and retired. Each state has a checklist that specifies
+the criteria needed to reach the state. These states make the kernel
+actionable and enable it to guide the behavior of software-development
+teams.
+
+アルファはシンプルに、進展や健康状態を表す状態集合として特徴付けられる。例えばソフトウェアシステムは、選択されたアーキテクチャにおける次の状態間を遷移する:
+（必要な内容が）明らかとなり確認できている、利用可能となっている、運用の準備ができている、運用できている、終了している。各状態には、当該状態に至る際に満足すべき基準を指定するチェックリストがある。それらの状態によって、カーネルは実施可能となり、ソフトウェア開発チームの振る舞いをガイドできるようになる。
+
+The kernel presents software development not as a linear process but
+as a network of collaborating elements that need to be balanced and
+maintained so teams can make effective and efficient progress,
+eliminate waste, and develop great software. The alphas in the kernel
+provide an overall framework for driving and progressing software
+development efforts, regardless of the practices applied or the
+philosophy followed.
+
+カーネルは、チームが効果的かつ効率に開発を進めて、無駄を省き、すばらしいソフトウェアを開発するために、ソフトウェア開発を線形のプロセスではなくバランスをとって維持する必要のある協調要素群のネットワークとして表す。カーネルのアルファは、適用するプラクティスや従う指針によらず、ソフトウェア開発の取り組みを駆動し進めるフレームワーク全体を与える。
+
+As practices are added to the kernel, alphas will be added to
+represent the things that either drive the progress of the kernel
+alphas or inhibit their progress. For example, the requirements alpha
+will not be addressed as a whole but will move forward item by item.
+The progress of the individual requirement items will either drive or
+inhibit the progress and health of the requirements alpha. The
+requirements items could be of many different types: for example,
+features, user stories, or usecase slices, all of which can be
+represented as alphas and have their states tracked. The benefit of
+relating these smaller items to the coarser-grained kernel elements is
+that it allows the tracking of the health of the endeavor as a whole.
+This provides a necessary balance to the lower-level tracking of the
+individual items, enabling teams to understand and optimize their ways
+of working.
+
+カーネルにプラクティスが加えられたのと同様に、カーネルの既存のアルファの進展を推進または抑制するものや事柄を表すために、新たなアルファが加えられる。例えば要求アルファは、それで全てとして扱われるものではなく、項目別に一つずつ進展しうる。個々の要求項目の進展が、要求アルファの進展や健康状態を推進または抑制する。要求項目はフィーチャやユーザストーリー、ユースケースなど様々であり、いずれもアルファとして表され、状態を持ち追跡する。それらの細かなアルファをより粗いカーネル要素へと関連付けることで、全体として取り組みの健康状態を追跡することが可能となる。これにより、個々の項目群の下位レベルの追跡に対してバランスが与えられ、チームが仕事の仕方を理解し最適化することが可能となる。
+
+*The kernel is extensible.
+Another unique feature of the kernel is the way it can be extended to
+support different projects (for example, new development, legacy
+enhancements, in-house development, offshore development, software
+product lines, and so on). The kernel allows you to add practices,
+such as user stories, use cases, componentbased development,
+architecture, pairprogramming, daily stand-up meetings,
+self-organizing teams, and so on to build the methods you need. For
+example, different methods could be assembled for in-house and
+outsourced development or for the development of safety-critical
+embedded systems and back-office reporting systems.
+
+*カーネルは拡張可能である。
+カーネルの他の優れた特徴として、異なるプロジェクト（例えば新開発、レガシー強化、社内開発、オフショア開発、ソフトウェアプロダクトラインなど）を扱えるように拡張できるという点がある。カーネルにおいて求める手法を構築するために、ユーザストリーやユースケース、コンポーネントベース開発、アーキテクチャ、ペアプログラミング、朝会、自己組織型チームといったプラクティスを追加できる。例えば、社内開発や委託開発、セーフティクリティカル組込みシステム開発や事務処理レポートシステム開発のそれぞれに対して、異なる手法を組み立てられる。
+
+Practice separation is the key idea here. While the term practice has
+been  widely used in the industry for many years, the kernel has a
+specific approach to the handling and sharing of practices. Practices
+are presented as distinct, separate, modular units, which a team can
+choose to use or not to use. This contrasts with traditional
+approaches that treat software development as a soup of
+indistinguishable practices and lead teams to dump the good with the
+bad when they move from one method to another.
+
+ここでキーとなるアイディアは、プラクティスを分離したということである。産業界で長年にわたり「プラクティス」という言葉は広く用いられているが、カーネルはプラクティスを扱い共有するための特別なアプローチを取る。プラクティスは互いに異なり分離されたモジュール単位として表され、チームがその利用を選択できる。この点が従来のアプローチとは異なる。従来のアプローチでは、ソフトウェア開発を互いに区別しがたいプラクティス群の"スープ"として扱っており、チームがある手法から他へと移るにあたり、良いことも悪いことも投げ捨てるように仕向けてしまう。
+
+*The kernel is practical.
+Perhaps the most important feature of the kernel is the way it is used
+in practice. Traditional approaches to software-development methods
+tend to focus on supporting process engineers or quality engineers.
+The kernel, in contrast, is a hands-on, tangible thinking framework
+focused on supporting software professionals as they carry out their
+work.
+
+*カーネルは実践的である。
+おそらくカーネルの最重要な特徴は、実践におけるカーネルの用いられ方にある。従来のソフトウェア開発手法に対するアプローチは、プロセスエンジニアや品質エンジニアの支援に焦点をあてる傾向にあった。対してカーネルは、ソフトウェアプロフェッショナルの仕事遂行の支援に焦点をあてた実践的で"触れられる"（tangible）思考フレームワークである。
+
+For example, the kernel can be touched and used through cards (see
+Figure 4).7,10 The cards provide concise reminders and cues for team
+members as they go about their daily tasks. By providing practical
+checklists and prompts, as opposed to conceptual discussions, the
+kernel becomes something the team uses on a daily basis. This is a
+fundamental difference from traditional approaches, which tend to
+overemphasize method description as opposed to method use and tend to
+be consulted only by people new to the team.
+
+例えば、カーネルはカードにより触れて用いることができる（図4参照）[7][10]。カードは、チームメンバにとって日々のタスクを進めるにあたっての簡潔な備忘録や合図となる。実践的なチェックリストや促すもの（prompt）を与えることで、概念的な議論とは対照的に、カーネルはチームから日々用いられるものとなる。これは、従来のアプローチとは根本的に異なっている。従来のアプローチではしばしば、手法の利用よりも手法の記述が過度に強調され、チームに加わったばかりの人々によってのみ参照され指導される。
+
+Cards provide concise descriptions that serve as reminders for team
+members. They can keep the kernel as a small deck of cards in their
+pockets, which they can easily pull out to discuss the current status
+of development and the work assignment and collaboration among team
+members. Teams can also discuss areas of improvement by referring to
+the cards. Thus, the kernel is not merely a heavyweight description of
+what a team needs to do. Rather, it forms an essential part of what
+they are doing each day.
+
+カードは、チームメンバにとっての備忘録となる簡潔な記述を与える。チームメンバはカーネルを、ポケットに小さなカード一組として持ち、簡単に引き出して、開発の現状や仕事の割り当て、メンバ間の協調作業について議論できる。チームはまた、カードを参照することで改善すべき領域を議論できる。このように、カーネルはチームがすべき事柄の長大な記述というよりも、チームが日々行っている事柄の根幹を形成する。
+
+*The kernel in action.
+The kernel has many applications in software professionals’everyday
+lives. They include:
+- Running an iteration (or sprint).
+- Running the entire development from idea to product.
+- Scaling to large organizations and complex software-development endeavors.
+
+*カーネルの利用
+カーネルは、ソフトウェアプロフェッショナルの日々の活動の中で様々に用いられる。例えば以下が挙げられる：
+- イテレーション（またはスプリント）の実行において。
+- アイディアから製品までの開発全体の実行において。
+- 大きな組織や複雑なソフトウェア開発への取り組みへの拡大において。
+
+The first application, planning an iteration, is used here as an
+example of what a team can do with the kernel. The others are covered
+fully in The Essence of Software Engineering - Applying the SEMAT
+Kernel.6
+
+カーネルは最初に、イテレーションの計画において適用できる。この適用を、チームがカーネルを用いてできることの例として説明する。他の適用は、十分に書籍『The
+Essence of Software Engineering - Applying the SEMAT
+Kernel』[6]でカバーされている。
+
+The example presented here assumes that a company has very little in
+the way of formal processes. In the past it has relied on having
+skilled and creative individuals on experienced teams, but the company
+is now growing and has many new hires. These new employees, mostly
+fresh out of university, have good technical skills - for example, in
+programming languages - but are less equipped in other aspects of
+software development, such as working with stakeholders to gain
+agreement on requirements.
+
+この例ではある企業が、形式化されたプロセスをほとんど持ち合わせていない状況を想定する。これまで同企業は、経験豊かなチームにおけるスキルを持ち創造的な個々人に頼ってきたが、現在、大きくなり新たな従業員を多くを雇いつつある。新たな従業員のほとんどは、大卒の新人であり、プログラミング言語などの技術的によいスキルを持つが、ステークホルダと協働して要求について同意を取り付けるといったソフトウェア開発上の様々な側面に不慣れである。
+
+This company has a development team that is responsible for making a
+mobile social-network application that lets users share and browse
+ideas, photos, and comments. The team began with only two developers,
+Smith (the team leader) and Tom, both of whom are familiar with the
+kernel. They are later joined by two more developers, Dick and
+Harriet, who are new to the job and have no previous knowledge of the
+kernel. Success to team leader Smith means more than functionality,
+schedule, and quality. This team ran development iteratively. You can
+think of planning an iteration as follows:
+
+同企業には、アイディアや写真、コメントをユーザが共有し閲覧できるモバイルソーシャルネットワークアプリケーションを開発するためのチームがある。チームは当初、カーネルに詳しいスミス（チームリーダ）とトムによって立ち上がった。その後、その仕事について初めてで、カーネルを知らないディックとハリエットという2名の開発者がチームに加わった。チームリーダのスミスにとって"成功"とは、機能やスケジュール、品質以上のものを意味する。同チームは開発をイテラティブ（漸増的）に進めた。ここで、イテレーションの計画を以下のように考えることができる。
+
+1. Determine where you are: Work out the current state of the endeavor.
+2. Determine where to go: Decide what to emphasize next and what the
+objectives of the next iteration will be.
+3. Determine how to get there: Agree on the tasks the team needs to do
+to achieve the objectives.
+
+1. 現在地の特定: 取り組みの現状を分析する。
+2. 行き先の決定: 次のイテレーションにおいて重視する事柄と目標を決定する。
+3. 行き方の決定: 目標達成のためにチームがすべきタスクについて同意する。
+
