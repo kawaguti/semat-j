@@ -12,7 +12,7 @@ Engineering: The Semat Kernel)
 --------------------------------------------------------------------------------------
 ソフトウェア開発に携わる人なら誰でも、それが複雑でリスクの高い仕事であること、そして参加者がよりよいソフトウェアにつながる新しいアイディアを、いつでも探していることを知っている。幸運なことに、ソフトウェア工学は、まだその若年代にあり毎年毎年ベストプラクティスの中に新しいイノベーションと改善を見ることができる、成長過程の専門分野だ。例えば、リーンとアジャイルの考え方(lean
 and agile thinking)がソフトウェア開発チームにもたらした改善と恩恵を見てみれば分かる。成功しているソフトウェア開発チームは、すばやく動くソフトウェアシステムを提供すること、ステークホルダーを満足させること、リスクに対処すること、そして仕事の仕方(way
-of working)を改善すること、これらのバランスをうまくとらなくてはならい。
+of working)を改善すること、これらのバランスをうまくとらなくてはならない。
 
 e Ve rYone Who deVeLops software knows it is a complex and risky
 business, and its participants are always on the lookout for new ideas
@@ -36,8 +36,8 @@ to adopt. This article presents such a thinking framework in the form
 of an actionable kernel, which could benefit any team wishing to
 balance their risks and improve their way of working.
 
-このカーネルの構築、すなわち「ソフトウェア工学のエッセンス(the essence of software
-engineerin)」は、「ソフトウェア工学の方法論と理論(Software Engineering Methods and Theory
+このカーネルの構築、すなわち「ソフトウェア工学のエッセンス(the essence of software 
+engineering)」は、「ソフトウェア工学の方法論と理論(Software Engineering Methods and Theory
 (SEMAT) call for action (図
 1))」にインスパイアされたものであり、それに対する直接の回答でもある。そして、ソフトウェア工学の再定義に向けた小さな一歩でもあるのだ。
 
@@ -62,7 +62,7 @@ suggests what needs to be done. The call for action is:
 
 * 言葉の流行が、工学の一分野というよりファッション業界のようだ。
 * しっかりした広く受け入れられた、理論的基礎の欠如。
-*  非常に多くの方法論(methods)とその派生。またそれらの違いがほとんど理解されずに作為的に強調されている。
+* 非常に多くの方法論(methods)とその派生。またそれらの違いがほとんど理解されずに作為的に強調されている。
 * 信頼できる実験的評価(experimental evaluation)と妥当性確認(validation)の欠如。
 * 産業界の実践(industry practice)と学界の研究(academic research)の乖離。
 
@@ -103,7 +103,7 @@ SEMATは、ソフトウェア工学を堅固な理論および検証された原
 * 産業界、学界、研究者そして、ユーザに支援され、
 * 要求とテクノロジの変化に応じて追随できるような拡張性を備えている。
 
-SEMAT supports a process to rede- fine software engineering based on a
+Semat supports a process to rede- fine software engineering based on a
 solid theory, proven principles, and best practices that:
 ˲ Include a kernel of widely agreed- upon elements, extensible for
 specific uses;
