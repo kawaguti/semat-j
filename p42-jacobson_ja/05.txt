@@ -1,0 +1,155 @@
+**The Kernel in the Real World
+**実世界におけるカーネル
+
+Although the ideas presented here will
+be new to many of you, they have already
+been successfully applied in the
+real world by both industry and academia.
+In all cases they used the kernel
+and practices developed by Ivar Jacobson
+International. Early adopters of the kernel idea include:
+
+ここで紹介されたアイデアは多くの皆さんにとって
+新しいものであるにもかかわらず、すでに産学両方で
+成功事例として適用されている。
+すべての例でIvar Jacobson Internationalが開発した
+カーネルとプラクティスが使用されている。
+カーネルアイデアの早期導入は以下を含む。
+
+- MunichRe, the world’s leading reinsurance
+company, where a family of
+“collaboration models” has been assembled
+to cover the whole spectrum
+of software and application work. Four
+collaboration models―exploratory,
+standard, maintenance, and support―
+have been built on the same kernel
+from the same set of 12 practices.
+
+- 世界の主要な再保険会社であるMunichReでは、
+ソフトウェアとアプリケーション開発(software and application work)
+のすべての領域をカバーするための
+"collaboration models"が整理されている。
+4つのcollaboration modelsである、
+調査、基準、保守、サポートは12のプラクティス群から
+構築された同じカーネルが利用されている。
+
+- Fujitsu Services, where the Apt
+Toolkit has been built on top of an early
+version of the software-engineering
+kernel, including both agile and waterfall
+ways of working.
+
+- Fujitsu Servicesでは、アジャイルとウォータフローの
+両方の仕事の仕方を想定したthe Apt Toolkitを
+初期バージョンのカーネルで構築している。
+
+- A major Japanese consumer electronics
+company, where the software
+processes have been defined on top of
+an early version of the kernel, helping
+teams apply new practices and manage
+an offshore development vendor.
+
+- 日本の大手家電企業では、新しいプラクティスの適用や
+オフショアの開発ベンダーのマネジメントを助ける用語に
+初期バージョンのカーネルを使用してソフトウェアプロセスを定義している。
+
+- KPN, where a kernel-based process
+was adopted by more than 300 projects
+across 13 programs as part of a move to
+iterative development. The kernel also
+provided the basis for a new results focused
+QA process, which could be
+applied to all projects regardless of the
+method or practices used.
+
+- KPNではカーネルベースのプロセスが繰り返し開発への
+移行の一部として13の工程を横断して300以上のプロジェクトで
+採用されている。カーネルは品質プロセスに焦点を当てた
+新たな結果に対する基礎(the basis)も提供しており、
+それは使用してきた方法論やプラクティスに依らず
+すべてのプロジェクトに適用することができた。
+ 
+- A major U.K. government department,
+where a kernel-based agile
+toolset was introduced to enable disciplined
+agility and the tracking of
+project progress and health in a practice-
+independent fashion.
+
+英国政府省庁ではカーネルベースのアジャイルツールセットが
+やりかたに依存することなく(in a practice-independent fashion)
+規律ある機敏さ、プロジェクト進展と健康状態のトラッキングを
+実現するために導入されている。
+
+The kernel is already being used in
+first- and second-year software-engineering
+courses at KTH Royal Institute
+of Technology in Sweden. After students
+in the first-year courses conducted
+their projects, they went through
+the SEMAT alphas and matched them
+to their project results, under the direction
+of Anders Sjogren. The students
+had the opportunity to acquaint themselves
+with and evaluate the alphas and
+gain insight into the project’s progress
+and health. In the second-year courses,
+run by Mira Kajko-Mattsson, the students
+were asked to use the SEMAT kernel
+when running their projects along
+with the development method they
+followed. As shown in Figure 7, Kajko-
+Mattsson created a software-development
+scenario and evaluated it for each
+alpha, its states, and the state checklist
+items. The students were then asked
+to do the same when conducting and
+evaluating their projects.
+
+カーネルはすでにスウェーデン王立工科大学で
+1－2年目のソフトウェアエンジニアリング課程に使用されている。
+1年目の課程で学生は彼らのプロジェクトを進めた後で、
+Anders Sjogrenの指導の下、彼らのプロジェクト結果を
+SEMATのアルファと照らし合わせた。学生はその結果の理解と
+アルファを評価する機会、そしてプロジェクトの進展と
+健康状態を見抜く機会を得た。
+Mira Kajko-Mattssonが行った2年目の課程において、
+学生は彼らが従った開発方法を用いてプロジェクトを進める時に
+SEMATカーネルを使用するよう指示された。
+Figure 7に示される様にKajko-Mattssonは
+ソフトウェア開発シナリオを作成し、アルファ毎にその状態と
+状態毎のチェックリストアイテムを評価した。
+学生は彼らのプロジェクトの運営と評価時に同じことをするよう指示された。
+
+The experiences of these courses
+provided valuable lessons. For example,
+the kernel assures that all the essential
+aspects of software engineering
+are considered in a project. By matching
+the project results against the kernel
+alphas, the students could easily
+identify the good and bad sides of their
+development methods. The kernel also
+prepared students for future software engineering
+endeavors with minimal
+teaching effort. By following all the kernel
+alphas, the students could learn the
+total scope of the software-engineering
+endeavor and thereby see what would
+be required of them in their future as
+professionals.
+
+これらの課程を通した体験は有益な経験を提供した。
+例えば、カーネルはソフトウェアエンジニアリングの
+すべての必須な観点がプロジェクトにおいて熟慮されることを保証している。
+カーネルのアルファとプロジェクトの結果を照らし合わせることで、
+学生は彼らの開発方法の良い面と悪い面を容易に識別することができる。
+またカーネルは学生に最小限の学習努力で将来のソフトウェアエンジニアリング
+活動(endeavors)に対する備えを与えた。
+すべてのカーネルのアルファに従うことで、
+学生はソフトウェアエンジニアリング活動(endeavors)の全範囲を
+習得することができた。そしてそれによってプロフェッショナルとしての
+彼らの将来において必要とされるものが何かを確かめることができた。
+
