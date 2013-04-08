@@ -24,21 +24,21 @@ always do” when developing software systems.
 Work is also ongoing to define the “skills we always need to have,”
 but this will have to wait until future versions of the kernel.
 
-カーネルは概念モデルである以上に、次のものを提供する：
+カーネルは概念モデルである以上に、次のものを提供する。
 More than just a conceptual model, the kernel provides:
 
 チームにおいて、開発の進捗および努力(endeavors)の健全性を論じるための
-思考フレームワーク;
+思考フレームワーク
 A thinking framework for teams to reason about the progress they are
 making and the health of their endeavors;
 
 ソフトウェア開発の方法論と実践に関する議論、改善、比較および共有の
-ための共通基盤;
+ための共通基盤
 Common ground for the discussion, improvement, comparison, and sharing
 of software-engineering methods and practices;
 
 チームが、別々に定義されたり由来が違うプラクティスを集めることによって、
-チーム独自の仕事の仕方を組み立て、継続的に改善するためのフレームワーク。
+チーム独自の仕事の仕方を組み立て、継続的に改善するためのフレームワーク
 A framework for teams to assemble and continuously improve their way
 of working by the composition of separately defined, and sourced,
 practices;
