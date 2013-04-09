@@ -8,7 +8,10 @@ real world by both industry and academia.
 In all cases they used the kernel
 and practices developed by Ivar Jacobson
 International. Early adopters of the kernel idea include:
+<<<<<<< HEAD
 
+=======
+>>>>>>> Add 05
 ここで紹介されたアイデアは多くの皆さんにとって
 新しいものであるにもかかわらず、すでに産学両方で
 成功事例として適用されている。
@@ -25,7 +28,10 @@ collaboration models―exploratory,
 standard, maintenance, and support―
 have been built on the same kernel
 from the same set of 12 practices.
+<<<<<<< HEAD
 
+=======
+>>>>>>> Add 05
 - 世界の主要な再保険会社であるMunichReでは、
 ソフトウェアとアプリケーション開発(software and application work)
 のすべての領域をカバーするための
@@ -39,7 +45,10 @@ Toolkit has been built on top of an early
 version of the software-engineering
 kernel, including both agile and waterfall
 ways of working.
+<<<<<<< HEAD
 
+=======
+>>>>>>> Add 05
 - Fujitsu Servicesでは、アジャイルとウォータフローの
 両方の仕事の仕方を想定したthe Apt Toolkitを
 初期バージョンのカーネルで構築している。
@@ -50,7 +59,10 @@ processes have been defined on top of
 an early version of the kernel, helping
 teams apply new practices and manage
 an offshore development vendor.
+<<<<<<< HEAD
 
+=======
+>>>>>>> Add 05
 - 日本の大手家電企業では、新しいプラクティスの適用や
 オフショアの開発ベンダーのマネジメントを助ける用語に
 初期バージョンのカーネルを使用してソフトウェアプロセスを定義している。
@@ -70,14 +82,21 @@ method or practices used.
 新たな結果に対する基礎(the basis)も提供しており、
 それは使用してきた方法論やプラクティスに依らず
 すべてのプロジェクトに適用することができた。
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> Add 05
 - A major U.K. government department,
 where a kernel-based agile
 toolset was introduced to enable disciplined
 agility and the tracking of
 project progress and health in a practice-
 independent fashion.
+<<<<<<< HEAD
 
+=======
+>>>>>>> Add 05
 英国政府省庁ではカーネルベースのアジャイルツールセットが
 やりかたに依存することなく(in a practice-independent fashion)
 規律ある機敏さ、プロジェクト進展と健康状態のトラッキングを
@@ -107,7 +126,10 @@ alpha, its states, and the state checklist
 items. The students were then asked
 to do the same when conducting and
 evaluating their projects.
+<<<<<<< HEAD
 
+=======
+>>>>>>> Add 05
 カーネルはすでにスウェーデン王立工科大学で
 1－2年目のソフトウェアエンジニアリング課程に使用されている。
 1年目の課程で学生は彼らのプロジェクトを進めた後で、
@@ -140,7 +162,10 @@ total scope of the software-engineering
 endeavor and thereby see what would
 be required of them in their future as
 professionals.
+<<<<<<< HEAD
 
+=======
+>>>>>>> Add 05
 これらの課程を通した体験は有益な経験を提供した。
 例えば、カーネルはソフトウェアエンジニアリングの
 すべての必須な観点がプロジェクトにおいて熟慮されることを保証している。
@@ -153,3 +178,215 @@ professionals.
 習得することができた。そしてそれによってプロフェッショナルとしての
 彼らの将来において必要とされるものが何かを確かめることができた。
 
+<<<<<<< HEAD
+=======
+*How the kernel relates to agile and others
+カーネルはアジャイルなどとどう関係するのか？
+
+The kernel can be used with all
+the popular management and technical
+practices, including Scrum, Kanban,
+risk-driven iterative, waterfall,
+use-case-driven development, acceptance-
+test-driven development, continuous
+integration, and test-driven
+development. It will help teams embarking
+on the development of new
+and innovative software products and
+those involved in enhancing and maintaining
+established software products.
+It will help all sizes of teams from oneman
+bands to 1,000-strong software-
+engineering programs.
+カーネルはスクラム、カンバン、リスクドリブンイテレーティブ、
+ウォータフォール、ユースケースドリブン開発、
+アクセプタンステストドリブン開発、
+継続的インテグレーション、テストドリブン開発を含む
+人気の高いマネジメントやテクニカルなプラクティスを採用することができる。
+また、カーネルは新しく、革新的なソフトウェア製品の開発や
+既存のソフトウェア製品の強化、メンテナンス
+に取り組んでいるチームを手助けできる。
+さらに単独から1000人強のソフトウェアエンジニアを
+擁するチームまで手助けすることができる。
+
+For example, the kernel supports
+the values of the Agile Manifesto. With
+its focus on checklists and results, and
+its inherent practice independence,
+it values individuals and interactions
+over processes and tools. With its focus
+on the needs of professional softwaredevelopment
+teams, it values the way
+of working and fulfilling team responsibilities
+over methods.
+例えば、カーネルはアジャイルマニフェストの
+有用性をサポートする。
+特定のプラクティスに依存せず、チェックリストと
+プロジェクトの結果に焦点を当てることで、
+プロセスやツールよりも個人や個人間の意思疎通に
+有用性を見出している。
+また、プロフェッショナルなソフトウェア開発チームの
+ニーズに焦点を当てることで、開発手法よりも
+仕事の仕方やチームの役割履行に有用性を見出している。
+
+The kernel does not in any way compete
+with existing methods, be they
+agile or anything else. On the contrary,
+the kernel is agnostic to a team’s chosen
+method. Even if a team is already
+using a particular method, the kernel
+can still help. Regardless of the method
+used, as Robert Martin pointed out
+in his foreword to The Essence of Software
+Engineering, projects―even agile
+ones―can get out of kilter, and when
+they do, teams need to know more.
+This is where the real value of the kernel
+lies. It can guide a team in the actions
+they need to take to get back on
+course, to extend their method, or to
+address a critical gap in their way of
+working. It focuses on the needs of the
+software professional and values the
+"use of methods" over "the description
+of method definitions" (as has been
+normal in the past).
+カーネルはアジャイルなどの既存の開発手法と競合しない。
+むしろカーネルはチームが選択する手法にとらわれることはない。
+チームがすでに特定の開発手法を使用している時でさえ、
+カーネルは手助けする余地がある。
+Robert MartinがThe Essense of Software Engineeringの
+序文で指摘しているように、使用された開発手法によらず
+チームがさらに知ることを願い、実際に行動した時に
+プロジェクトは不調から抜け出すことができる。
+これはカーネルの本質がどこにあるかを示している。
+カーネルはチームが仕事の仕方における開発手法を拡張するため、
+あるいは重要なギャップに対処するために立ち返る場所を
+必要とする時に彼らが取るべき行動を導くことができる。
+カーネルはソフトウェアの専門家のニーズに焦点を当て、
+過去において正常だった開発手法定義の説明よりも
+開発方法を使用することに有用性を見出している。
+
+The kernel does not just support
+modern best practices; it also recognizes
+that a vast amount of software is already
+developed and needs to be maintained.
+It will live for decades and will
+have to be maintained in an efficient
+way. This means the way you work with
+this software will have to evolve alongside
+the software itself. New practices
+will need to be introduced in a way
+that complements the ones already in
+use. The kernel provides the mechanisms
+to migrate legacy methods from
+monolithic waterfall approaches to
+more modern agile ones and beyond,
+in an evolutionary way. It allows you to
+change your legacy methods practiceby-
+practice, while maintaining and improving
+the teams’ ability to deliver.
+カーネルは最新で最良のプラクティスをサポートしていないが、
+膨大な量のソフトウェアがすでに開発され、
+メンテナンスが必要とされていることを認識している。
+それらは何十年も稼働し、効率的な方法で維持される必要がある。
+これはあなたの仕事の仕方がこのソフトウェア自身と
+一緒に進化しなければならないことを意味しており、
+新しいプラクティスはすでに使用されているプラクティスを
+補完する形で導入できる必要がある。
+カーネルはソフトウェア自身の進化の過程において
+既存の開発手法をモノシリックなウォータフローアプローチから
+より現代的なアジャイル、さらにそれより先の開発手法に
+移行させるためのメカニズムを提供する。
+これはチームの実行力を維持、向上させながら
+実践を繰り返すことで既存の開発手法が変化できることを示している。
+
+*How the kernel will help you.
+カーネルはあなたをどう助けてくれるか？
+
+Use of the kernel has many benefits for experienced
+or aspiring software professionals,
+and for the teams they work
+in. For example, it helps you assess
+the progress and health of software development
+endeavors, evaluate current
+practices, and improve your way
+of working. It also helps you improve
+communication, move more easily between
+teams, and adopt new ideas. It
+will help the industry as a whole by improving
+interoperability among teams,
+suppliers, and development organizations.
+カーネルの使用は経験豊富なソフトウェア開発者や
+意欲的なソフトウェア開発者、そして彼らが参加する
+チームに多くの利益を与える。例えば、カーネルは
+ソフトウェア開発活動の進展や健康状態の診断、
+現在取り組んでいるプラクティスの評価、
+そして仕事の仕方の改善を手助けしてくれる。
+また、コミュニケーションの改善やチーム間の移動の
+しやすさ、そして新しいアイデアの採用を手助けしてくれる。
+カーネルはチーム、サプライヤ、および開発組織間の
+相互運用の改善により産業界全体を手助けしてくれるでしょう。
+
+By providing a practice-independent
+foundation for the definition of
+software methods, the kernel also has
+the power completely to transform the
+way that methods are defined and practices
+are shared. For example, by allowing
+teams to mix and match practices
+from different sources to build and improve
+their way of working, the kernel
+addresses two of the key methodological
+problems facing the industry:
+ソフトウェア開発手法の定義に対する
+基盤に依存しないプラクティスを提供することによって、
+カーネルは手法の定義やプラクティスの共有の仕方を
+変換するための完全な力を持っている。
+例えば、彼らの仕事の仕方を構築したり、改善するために
+異なる発信元からのプラクティスを混在させたり
+調和させることをチームに許可することによって、
+カーネルは産業界が直面している重要な2つの
+方法論の問題解決に取り組んでいる。
+
+- Teams are no longer trapped by
+their methods; they can continuously
+improve their way of working by adding
+or removing practices when the situation
+demands.
+チームは自分たちの方法論によって
+身動きが取れなくなることはない。
+チームは状況に応じてプラクティスを追加、削除して
+絶え間なく仕事の仕方を改善することができる。
+
+- Methodologists no longer need to
+waste time describing complete methods;
+they can easily describe their new
+ideas in a concise and reusable way.
+方法論者は完全な方法を記述するために時間を浪費することはない。
+彼らは簡潔で再利用可能な方法で彼らの新たな考えを
+容易に記述することができる。
+
+Finally, the kernel benefits academia.
+The kernel provides a basis for
+the creation of foundation courses in
+software engineering that can then be
+complemented with additional courses
+in specific practices―either as part
+of the initial educational curriculum or
+later during the student’s professional
+development. Equally as important is
+the kernel’s ability to act as a shared
+reference model and enabler for further
+research and experimentation.
+
+最後に、カーネルは学会にとって有益である。
+カーネルは初期教育のカリキュラムの一部として、
+あるいはその後の専門課程の間に特定プラクティスの
+追加課程を補足することで完成するソフトウェアエンジニアリングの
+一般教養課程の構築に基礎(basis)を提供する。
+共有されたリファレンスモデルとしてのカーネルの役割と
+更なる研究と実験を可能にするカーネルの役割はともに
+等しく重要である。
+
+>>>>>>> Add 05
