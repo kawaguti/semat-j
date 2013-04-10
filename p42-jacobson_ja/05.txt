@@ -8,10 +8,6 @@ real world by both industry and academia.
 In all cases they used the kernel
 and practices developed by Ivar Jacobson
 International. Early adopters of the kernel idea include:
-<<<<<<< HEAD
-
-=======
->>>>>>> Add 05
 ここで紹介されたアイデアは多くの皆さんにとって
 新しいものであるにもかかわらず、すでに産学両方で
 成功事例として適用されている。
@@ -28,10 +24,6 @@ collaboration models―exploratory,
 standard, maintenance, and support―
 have been built on the same kernel
 from the same set of 12 practices.
-<<<<<<< HEAD
-
-=======
->>>>>>> Add 05
 - 世界の主要な再保険会社であるMunichReでは、
 ソフトウェアとアプリケーション開発(software and application work)
 のすべての領域をカバーするための
@@ -45,10 +37,6 @@ Toolkit has been built on top of an early
 version of the software-engineering
 kernel, including both agile and waterfall
 ways of working.
-<<<<<<< HEAD
-
-=======
->>>>>>> Add 05
 - Fujitsu Servicesでは、アジャイルとウォータフローの
 両方の仕事の仕方を想定したthe Apt Toolkitを
 初期バージョンのカーネルで構築している。
@@ -59,10 +47,6 @@ processes have been defined on top of
 an early version of the kernel, helping
 teams apply new practices and manage
 an offshore development vendor.
-<<<<<<< HEAD
-
-=======
->>>>>>> Add 05
 - 日本の大手家電企業では、新しいプラクティスの適用や
 オフショアの開発ベンダーのマネジメントを助ける用語に
 初期バージョンのカーネルを使用してソフトウェアプロセスを定義している。
@@ -82,21 +66,13 @@ method or practices used.
 新たな結果に対する基礎(the basis)も提供しており、
 それは使用してきた方法論やプラクティスに依らず
 すべてのプロジェクトに適用することができた。
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> Add 05
 - A major U.K. government department,
 where a kernel-based agile
 toolset was introduced to enable disciplined
 agility and the tracking of
 project progress and health in a practice-
 independent fashion.
-<<<<<<< HEAD
-
-=======
->>>>>>> Add 05
 英国政府省庁ではカーネルベースのアジャイルツールセットが
 やりかたに依存することなく(in a practice-independent fashion)
 規律ある機敏さ、プロジェクト進展と健康状態のトラッキングを
@@ -126,10 +102,6 @@ alpha, its states, and the state checklist
 items. The students were then asked
 to do the same when conducting and
 evaluating their projects.
-<<<<<<< HEAD
-
-=======
->>>>>>> Add 05
 カーネルはすでにスウェーデン王立工科大学で
 1－2年目のソフトウェアエンジニアリング課程に使用されている。
 1年目の課程で学生は彼らのプロジェクトを進めた後で、
@@ -162,10 +134,6 @@ total scope of the software-engineering
 endeavor and thereby see what would
 be required of them in their future as
 professionals.
-<<<<<<< HEAD
-
-=======
->>>>>>> Add 05
 これらの課程を通した体験は有益な経験を提供した。
 例えば、カーネルはソフトウェアエンジニアリングの
 すべての必須な観点がプロジェクトにおいて熟慮されることを保証している。
@@ -178,8 +146,6 @@ professionals.
 習得することができた。そしてそれによってプロフェッショナルとしての
 彼らの将来において必要とされるものが何かを確かめることができた。
 
-<<<<<<< HEAD
-=======
 *How the kernel relates to agile and others
 カーネルはアジャイルなどとどう関係するのか？
 
@@ -388,5 +354,3 @@ research and experimentation.
 共有されたリファレンスモデルとしてのカーネルの役割と
 更なる研究と実験を可能にするカーネルの役割はともに
 等しく重要である。
-
->>>>>>> Add 05
