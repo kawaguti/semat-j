@@ -24,9 +24,8 @@ but this will have to wait until future versions of the kernel.
 * チームにおいて、開発の進捗や取り組みの健全性（health of endeavors）を推論し判断するための思考フレームワーク
 * ソフトウェア開発の手法とプラクティスについて議論、改善、比較および共有するための共通基盤
 * チームが、別々に定義され由来の異なるプラクティスを集めてチーム独自の仕事の仕方を組み立てて、継続的に改善するためのフレームワーク
-* 開発されたソフトウェアならびに開発に用いられた方法論の品質を評価するための、事例非依存な計測指標を定義する基礎(foundation)
-* 最も重要なこととして、どこにいるのか、次に何をすべきなのか、そして
-どこを改善すべきなのかを、チームが理解することを支援する方法
+* 開発されたソフトウェアや、用いられた開発方法論の品質を評価するためのプラクティス非依存な測定方法を定義する基礎（foundation）
+* 最も重要なこととして、チームがどこにいて、次に何をすべきで、どこを改善すべきかを理解することの支援方法
 
 More than just a conceptual model, the kernel provides:
 * A thinking framework for teams to reason about the progress they are
