@@ -44,7 +44,7 @@ Theory (SEMAT) call for action (see Figure 1). It is, in its own way,
 one small step toward redefining software engineering.
 
 SEMATは2009年9月に、人々のソフトウェア開発手法への関わり方を抜本的に変更する時期に来ていると感じた3人、Ivar
-Jacobson、Bertrand Meyer、Richard Soleyによって創設された [3,4,8] 。彼らは 行動宣言を書き、いくつかの致命的な問題を特定し、なぜ行動が必要かを説明し、そして何が必要なのかを示唆した。その行動宣言を以下に示す。
+Jacobson、Bertrand Meyer、Richard Soleyによって創設された [3,4,8] 。彼らは行動宣言を書き、いくつかの致命的な問題を特定し、なぜ行動が必要かを説明し、そして何が必要なのかを示唆した。その行動宣言を以下に示す。
 
 SEMAT was founded in September 2009 by Ivar Jacobson, Bertrand Meyer,
 and Richard Soley, who felt the time had come to fundamentally change
