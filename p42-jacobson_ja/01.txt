@@ -56,7 +56,7 @@ suggests what needs to be done. The call for action is:
 現在のソフトウェア工学のいくつかの分野では、未成熟なプラクティス(immature practices)に苦しめられている。具体的には、以下の問題を含む。
 
 * 言葉の流行が、工学の一分野というよりファッション業界のようである。
-* しっかりとし広く受け入れられるような理論的基礎を欠いている。
+* 堅固で広く受け入れられるような理論的基礎を欠いている。
 * 非常に多くの方法論(methods)とその派生であふれ、それらの違いはほとんど理解されず作為的に強調されている。
 * 信頼できる実験的評価(experimental evaluation)と妥当性確認(validation)を欠いている。
 * 産業界の実践(industry practice)と学界の研究(academic research)の乖離。
@@ -71,7 +71,7 @@ little understood and artificially magnified;
 ˲ The lack of credible experimental evaluation and validation; and
 ˲ The split between industry practice and academic research.
 
-このように行動宣言は、ソフトウェア産業が流行とファッションに陥りやすいという前提を置いており、ある人々には「新しいアイディアへの抵抗」と映ったようである。しかし、それは真実からかけ離れている。この記事および間もなく刊行される書籍（The Essence of Software Engineering—Applying the SEMAT Kernel）[6]で見てとれるように、SEMATの支援者は新しいアイディアに敏感である。
+このように行動宣言は、ソフトウェア産業が流行とファッションに陥りやすいという前提を置いており、ある人々には「新しいアイディアへの抵抗」と映ったようである。しかし、それは真実からかけ離れている。この記事および間もなく刊行される書籍（The Essence of Software Engineering—Applying the SEMAT Kernel）[6]で見てとれるように、SEMATの支持者は新しいアイディアに敏感である。
 
 The SEMAT call for action’s assertion that the software industry is
 prone to fads and fashions has led some people to assume that SEMAT is
@@ -80,8 +80,7 @@ you will see in this article and in a soon-to-be-published book (The
 Essence of Software Engineering—Applying the SEMAT Kernel),6 SEMAT
 supporters are very keen on new ideas.
 
-彼らが反対しているのは、ソリューションが流行っているから（あるいは、政治的正当性(political
-correctness)や同僚からの圧力）という理由だけで不適切なソリューションを採用する人々の、non-lean、non-agileな行動なのである。
+SEMATの支持者が反対しているのは、ただソリューションが流行っているから、あるいは、単なる政治的な理由や同僚からの圧力によって、不適切なソリューションを採用する人々の非リーン（non-lean）、非アジャイル（non-agile）な行動である。
 
 What they are against is the non- lean, non-agile behavior that comes
 from people adopting inappropriate solutions just because they believe
@@ -89,11 +88,11 @@ these solutions are fashionable—or because of peer pressure or
 political correctness.
 
 
-SEMATは、ソフトウェア工学を堅固な理論および検証された原則とベストプラクティスを基礎として、再建するプロセスを支援する。そのプロセスは、以下の特徴を備えている。
-* 広く合意された要素からなる、特定用途に拡張可能なカーネルを含み、
-* 技術の問題と人の問題の両方を扱い、
-* 産業界、学界、研究者そして、ユーザに支援され、
-* 要求とテクノロジの変化に応じて追随できるような拡張性を備えている。
+SEMATは、堅固な理論および検証された原則とベストプラクティスに基づいて、ソフトウェア工学を再建するプロセスを支援する。SEMATは以下の特徴を備えている。
+* 広く合意された要素からなり、特定用途に拡張可能なカーネルを含む。
+* 技術の問題と人の問題の両方を扱う。
+* 産業界、学界、研究者、そして、ユーザによって支えられる。
+* 要求と技術の変化に応じて追随できるような拡張性を備える。
 
 Semat supports a process to rede- fine software engineering based on a
 solid theory, proven principles, and best practices that:
@@ -104,22 +103,20 @@ specific uses;
 ˲ Support extension in the face of changing requirements and technol- ogy.
 
 
-SEMATの call for action は、増え続ける署名者、サポーターのリスト(http://www.semat.org)
-を含む、広い支援者ベースを得た。2010年2月には、SEMATの創設者はcall for
-actionをビジョンステートメントとして発展させた(5)。
+SEMATの行動宣言は支持を広く集め、署名者や支持者が増え続けている（http://www.semat.org）。2010年2月には、SEMATの創設者は行動宣言をビジョン声明（vision statement）として発展させた [5]。
 
 The SEMAT call for action received a broad base of support, including
 a growing list of signatories and sup- porters (http://www.semat.org).
 In February 2010 the SEMAT founders developed the call for action into
 a vi- sion statement.5
 
-このビジョンに沿って、SEMATは2つのゴールに焦点を合わせた： 広く合意された要素からなるカーネルを見つけること、そして堅固な理論的基礎を定義すること。
+このビジョンに沿って、SEMATは2つのゴールに焦点を合わせた： 広く合意された要素からなるカーネルを見つけること、そして、堅固な理論的基礎を定義することである。
 
 In accordance with
 this vision, SEMAT focused on two major goals: Finding a kernel of
 widely agreed-upon elements, and defining a solid theoretical basis.
 
-これら2つの作業はかなりの範囲で独立している。カーネルを見つけることは多数の既存手法の知識を備えた経験のあるソフトウェアエンジニアの実践的な活動である。理論的基礎を定義することはアカデミックな研究活動であり、成功といえる結果に到達するには、何年もかかるだろう。
+これらの2つの作業は、かなりの範囲で独立している。カーネルやその要素を見つけることは、多数の既存手法の知識を備えた経験のあるソフトウェアエンジニアによる実践的な活動となる。対して理論的基礎の定義はアカデミックな研究活動であり、成功といえる結果に到達するには何年もかかるだろう。
 
 To a large extent these two tasks are independent of each other.
 Finding the kernel and its elements is a prag- matic exercise
