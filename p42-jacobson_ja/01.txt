@@ -8,10 +8,10 @@ A thinking framework in the form of an actional kernel.
 by Iver Jacobson, Pan-Wei NG, Paul E. Mcmahon,
 Ian Spence, and Svante Lidman
 --------------------------------------------------------------------------------------
-ソフトウェア工学のエッセンス: SEMAT カーネル
+ソフトウェアエンジニアリングのエッセンス: SEMAT カーネル
 (The Essence of Software Engineering: The Semat Kernel)
 --------------------------------------------------------------------------------------
-ソフトウェア開発に携わる人なら誰でも、それが複雑でリスクの高い仕事であること、そして関わる人々がよりよいソフトウェアにつながる新しいアイディアをいつでも探していることを知っている。幸運なことに、ソフトウェア工学はまだその若年代にあり、毎年毎年ベストプラクティスの中にイノベーションと改善を見てとれる成長過程の専門分野である。それは例えば、リーンとアジャイルの考え方（lean
+ソフトウェア開発に携わる人なら誰でも、それが複雑でリスクの高い仕事であること、そして関わる人々がよりよいソフトウェアにつながる新しいアイディアをいつでも探していることを知っている。幸運なことに、ソフトウェアエンジニアリングはまだその若年代にあり、毎年毎年ベストプラクティスの中にイノベーションと改善を見てとれる成長過程の専門分野である。それは例えば、リーンとアジャイルの考え方（lean
 and agile thinking）がソフトウェア開発チームにもたらした改善と恩恵を見てみれば分かる。ソフトウェア開発チームが成功するためには、動くソフトウェアシステムをすばやく提供すること、ステークホルダーを満足させることや、リスクに対処すること、さらには仕事の仕方（way
 of working）を改善することのバランスをうまくとらなくてはならない。
 
@@ -36,7 +36,7 @@ to adopt. This article presents such a thinking framework in the form
 of an actionable kernel, which could benefit any team wishing to
 balance their risks and improve their way of working.
 
-このカーネルの構築、すなわち「ソフトウェア工学のエッセンス（the essence of software engineering）」は、「ソフトウェア工学の方法論と理論（Software Engineering Methods and Theory; SEMAT）」の行動宣言（call for action）（図1）に触発されたものであり、それに対する直接の回答でもある。そして、ソフトウェア工学の再定義に向けた小さな一歩でもある。
+このカーネルの構築、すなわち「ソフトウェアエンジニアリングのエッセンス（the essence of software engineering）」は、「ソフトウェアエンジニアリングの方法論と理論（Software Engineering Methods and Theory; SEMAT）」の行動宣言（call for action）（図1）に触発されたものであり、それに対する直接の回答でもある。そして、ソフトウェアエンジニアリングの再定義に向けた小さな一歩でもある。
 
 Work on the kernel, the essence of software engineering, was inspired
 by and is a direct response to the Software Engineering Methods and
@@ -53,9 +53,9 @@ a call for action statement, which in a few lines identifies a number
 of critical problems, explains why there is a need to act, and
 suggests what needs to be done. The call for action is:
 
-現在のソフトウェア工学のいくつかの分野では、未成熟なプラクティス(immature practices)に苦しめられている。具体的には、以下の問題を含む。
+現在のソフトウェアエンジニアリングのいくつかの分野では、未成熟なプラクティス(immature practices)に苦しめられている。具体的には、以下の問題を含む。
 
-* 言葉の流行が、工学の一分野というよりファッション業界のようである。
+* 言葉の流行が、エンジニアリングの一分野というよりファッション業界のようである。
 * 堅固で広く受け入れられるような理論的基礎を欠いている。
 * 非常に多くの方法論(methods)とその派生であふれ、それらの違いはほとんど理解されず作為的に強調されている。
 * 信頼できる実験的評価(experimental evaluation)と妥当性確認(validation)を欠いている。
@@ -88,7 +88,7 @@ these solutions are fashionable—or because of peer pressure or
 political correctness.
 
 
-SEMATは、堅固な理論および検証された原則とベストプラクティスに基づいて、ソフトウェア工学を再建するプロセスを支援する。SEMATは以下の特徴を備えている。
+SEMATは、堅固な理論および検証された原則とベストプラクティスに基づいて、ソフトウェアエンジニアリングを再建するプロセスを支援する。SEMATは以下の特徴を備えている。
 * 広く合意された要素からなり、特定用途に拡張可能なカーネルを含む。
 * 技術の問題と人の問題の両方を扱う。
 * 産業界、学界、研究者、そして、ユーザによって支えられる。
@@ -126,4 +126,4 @@ research and may take many years to reach a successful outcome.
 
 
 
-(2013/04/14 p42-jacobson_ja.pptx への取り込みを行いました)
+(2013/04/14 p42-jacobson_ja.pptx への取り込みを行いました 2)
