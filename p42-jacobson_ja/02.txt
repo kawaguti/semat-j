@@ -8,7 +8,7 @@ engineering. This common ground is manifested as a kernel of essential
 elements that are universal to all software-development efforts, and
 a simple language for describing methods and practices.
 
-カーネルは、SEMATのOMG（Object Management Group）に対する提案の中で初めて公開された。図1と図2に示すように、カーネルはソフトウェアシステムを開発するときに「我々が常に仕事で扱うこと（things we always work with）」と「我々が常に行うこと(things we always do)」を少し含んでいる。
+カーネルは、SEMATのOMG（Object Management Group）に対する提案の中で初めて公開された。図1と図2に示すように、カーネルはソフトウェアシステムを開発するときに「我々が常に仕事で扱うこと（things we always work with）」と「我々が常に行うこと(things we always do)」に関する厳選された少数の概念からなる。
 
 The kernel was first published in the SEMAT OMG (Object Management
 Group) submission. As shown in figures 1 and 2, the kernel contains
