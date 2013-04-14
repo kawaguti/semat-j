@@ -8,12 +8,8 @@ real world by both industry and academia.
 In all cases they used the kernel
 and practices developed by Ivar Jacobson
 International. Early adopters of the kernel idea include:
-ここで紹介されたアイデアは多くの皆さんにとって
-新しいものであるにもかかわらず、すでに産学両方の現実世界において
-成功事例として適用されている。
-すべての例でIvar Jacobson Internationalが開発した
-カーネルとプラクティスが使用されている。
-カーネルアイデアの早期導入は以下を含む。
+
+ここで紹介されたアイデアは多くの皆さんにとって新しいものであるにもかかわらず、すでに産学両方の現実世界において適用され成功を収めている。すべての事例でIvar Jacobson Internationalが開発したカーネルとプラクティスが使用されている。カーネルのアイデアを早期に採用した組織として以下がある。
 
 - MunichRe, the world’s leading reinsurance
 company, where a family of
@@ -24,22 +20,16 @@ collaboration models―exploratory,
 standard, maintenance, and support―
 have been built on the same kernel
 from the same set of 12 practices.
-- 世界の主要な再保険会社であるMunichReでは、
-ソフトウェアとアプリケーション開発
-のすべての領域をカバーするための
-協働モデル（collaboration models）が整理されている。
-4つの協働モデルは
-調査、基準、保守、サポートであり、それぞれが12のプラクティス
-からなる１つの共通カーネル上に構築されている。
+
+* 再保険に関する世界的リーディング企業であるMunichReでは、ソフトウェアとアプリケーション開発のすべての領域をカバーするための協働モデル（collaboration models）を整理している。調査、基準、保守、サポートの4つの協働モデルがあり、それぞれ共通カーネル上で12のプラクティスセットから構築されている。
 
 - Fujitsu Services, where the Apt
 Toolkit has been built on top of an early
 version of the software-engineering
 kernel, including both agile and waterfall
 ways of working.
-- Fujitsu Servicesでは、アジャイルとウォータフォールの
-両方の仕事の仕方を想定したthe Apt Toolkitを
-初期バージョンのカーネルで構築している。
+
+* Fujitsu Servicesでは、アジャイルとウォータフォールの両方の仕事の仕方を想定した「Aptツールキット（the Apt Toolkit）（訳注: Aptは「Appropriate; 適切」の意味）を初期バージョンのカーネル上に構築している。
 
 - A major Japanese consumer electronics
 company, where the software
@@ -47,25 +37,19 @@ processes have been defined on top of
 an early version of the kernel, helping
 teams apply new practices and manage
 an offshore development vendor.
-- 日本のある大手家電企業では、新しいプラクティスの適用や
-オフショアの開発ベンダーのマネジメントを助ける用語に
-初期バージョンのカーネルを使用してソフトウェアプロセスを定義している。
+
+- 日本のある大手家電メーカでは、チームによる新プラクティスの適用やオフショア開発ベンダーのマネジメントを支援するために、初期バージョンのカーネル上でソフトウェアプロセスを定義している。
 
 - KPN, where a kernel-based process
 was adopted by more than 300 projects
 across 13 programs as part of a move to
 iterative development. The kernel also
-provided the basis for a new results focused
+provided the basis for a new results-focused
 QA process, which could be
 applied to all projects regardless of the
 method or practices used.
 
-- KPNではカーネルベースのプロセスが繰り返し開発への
-移行の一部として、13の工程に渡る300以上のプロジェクトで
-採用されている。カーネルは品質プロセスに焦点を当てた
-新たな成功の基礎も提供しており、
-それは使用してきた方法論やプラクティスに依らず
-すべてのプロジェクトに適用することができた。
+* KPNではイテラティブな開発（iterative development; 反復的開発）への移行の一環として、13の計画に渡り300以上のプロジェクトで採用されている。さらにカーネルは、結果を重視する新たな品質保証プロセスの基礎を提供し、そのプロセスは用いる方法論やプラクティスの違いにかかわらずあらゆるプロジェクトに適用できた。
 
 - A major U.K. government department,
 where a kernel-based agile
@@ -73,79 +57,20 @@ toolset was introduced to enable disciplined
 agility and the tracking of
 project progress and health in a practice-
 independent fashion.
-英国政府省庁ではカーネルベースのアジャイルツールセットが
-導入された。それによってプラクティス非依存のやり方で、
-規律ある機敏さ、プロジェクト進展と健康状態のトラッキングを
-実現した。
 
-The kernel is already being used in
-first- and second-year software-engineering
-courses at KTH Royal Institute
-of Technology in Sweden. After students
-in the first-year courses conducted
-their projects, they went through
-the SEMAT alphas and matched them
-to their project results, under the direction
-of Anders Sjogren. The students
-had the opportunity to acquaint themselves
-with and evaluate the alphas and
-gain insight into the project’s progress
-and health. In the second-year courses,
-run by Mira Kajko-Mattsson, the students
-were asked to use the SEMAT kernel
-when running their projects along
-with the development method they
-followed. As shown in Figure 7, Kajko-
-Mattsson created a software-development
-scenario and evaluated it for each
-alpha, its states, and the state checklist
-items. The students were then asked
-to do the same when conducting and
-evaluating their projects.
-カーネルはすでにスウェーデン王立工科大学(KTH)で
-1－2年目のソフトウェアエンジニアリング課程に使用されている。
-1年目の課程で学生は彼らのプロジェクトを進めた後で、
-Anders Sjogrenの指導の下、彼らのプロジェクト結果を
-SEMATのアルファと照らし合わせた。学生はその結果の理解と
-アルファを評価する機会、そしてプロジェクトの進展と
-健康状態を考察する機会を得た。
-Mira Kajko-Mattssonが行った2年目の課程において、
-学生は彼らが従った開発方法を用いてプロジェクトを進める時に
-SEMATカーネルを使用するよう指示された。
-Figure 7に示される様にKajko-Mattssonは
-ソフトウェア開発シナリオを作成し、アルファ毎にその状態と
-状態毎のチェックリストアイテムを評価した。
-学生は彼らのプロジェクトの運営と評価時に同じことをするよう指示された。
+* 英国政府のある省庁では、カーネルに基づいたアジャイルツールセットが導入されている。ツールセットの導入によりプラクティス非依存の形で、規律ある機敏さ（disciplined agility）と、プロジェクトの進展や健全性の追跡を実現している。
 
-The experiences of these courses
-provided valuable lessons. For example,
-the kernel assures that all the essential
-aspects of software engineering
-are considered in a project. By matching
-the project results against the kernel
-alphas, the students could easily
-identify the good and bad sides of their
-development methods. The kernel also
-prepared students for future software engineering
-endeavors with minimal
-teaching effort. By following all the kernel
-alphas, the students could learn the
-total scope of the software-engineering
-endeavor and thereby see what would
-be required of them in their future as
+The kernel is already being used in first- and second-year software-engineering
+courses at KTH Royal Institute of Technology in Sweden. After students in the first-year courses conducted their projects, they went through the SEMAT alphas and matched them to their project results, under the direction of Anders Sjogren. The students had the opportunity to acquaint themselves with and evaluate the alphas and gain insight into the project’s progress and health. In the second-year courses, run by Mira Kajko-Mattsson, the students were asked to use the SEMAT kernel when running their projects along with the development method they followed. As shown in Figure 7, Kajko-Mattsson created a software-development scenario and evaluated it for each alpha, its states, and the state checklist items. The students were then asked to do the same when conducting and evaluating their projects.
+
+カーネルはすでにスウェーデン王立工科大学(KTH)で、1-2年目のソフトウェアエンジニアリングコースに利用されている。学生は1年目にプロジェクトを進めた後で、Anders Sjogrenの指導の下、プロジェクトの結果をSEMATのアルファと照らし合わせた。学生はアルファに精通し評価する機会を得て、さらには、プロジェクトの進展と健全性を考察できた。学生は2年目にMira Kajko-Mattssonにより、開発方法論に従ってプロジェクトを進めるにあたり、SEMATカーネルを使用するよう指示された。図7に示す様にKajko-Mattssonは、ソフトウェア開発シナリオを作成し、アルファ毎にその状態と状態毎のチェックリスト項目を評価した。そして学生は、プロジェクトの運営と評価にあたり同じことをするように指示された。
+
+The experiences of these courses provided valuable lessons. For example, the kernel assures that all the essential aspects of software engineering are considered in a project. By matching the project results against the kernel alphas, the students could easily identify the good and bad sides of their 
+development methods. The kernel also prepared students for future software engineering endeavors with minimal teaching effort. By following all the kernel
+alphas, the students could learn the total scope of the software-engineering endeavor and thereby see what would be required of them in their future as
 professionals.
 
-これらの課程を通した体験は有益な学びを提供した。
-例えば、カーネルはソフトウェアエンジニアリングの
-すべての必須な観点が、プロジェクトにおいて確実に熟慮されるようにする。
-カーネルのアルファとプロジェクトの結果を照らし合わせることで、
-学生は彼らの開発方法の良い面と悪い面を容易に識別することができた。
-またカーネルは学生に最小限の学習努力で将来のソフトウェアエンジニアリング
-活動に対する備えを与えた。
-すべてのカーネルのアルファに従うことで、
-学生はソフトウェアエンジニアリング活動の全範囲を
-習得することができた。そしてそれによってプロフェッショナルとしての
-彼らの将来において必要とされるものが何かを確かめることができた。
+これらのコースを通した体験を通じて、有益な学びがもたらされた。例えば、カーネルによって、ソフトウェアエンジニアリングのすべての本質的な側面がプロジェクトで確実に考慮されるようになる。プロジェクトの結果をカーネルのアルファに照らし合わせることで、学生は彼らの開発方法論の良い面と悪い面を容易に識別できた。またカーネルは、教育活動を最小に抑えて、将来のソフトウェアエンジニアリングの取り組みに対する備えを学生に与えた。カーネルの全てのアルファに従うことで、学生はソフトウェアエンジニアリングの取り組みの全範囲を習得でき、将来プロフェッショナルとして必要とされるものを確かめることができた。
 
 *How the kernel relates to agile and others
 カーネルはアジャイルなどとどう関係するのか？
