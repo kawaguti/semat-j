@@ -15,32 +15,32 @@ Group) submission. As shown in figures 1 and 2, the kernel contains
 a small number of “things we always work with” and “things we
 always do” when developing software systems.
 
-「我々が常に保有しているべき技術(skills we always need to have)」を定義する活動も進行中である。しかし、
-これはカーネルの将来のバージョンまで待たなければならない。
+「我々が常に持つべきスキル（skills we always need to have）」を定義する活動も進行中である。しかし、これはカーネルの将来のバージョンまで待たなければならない。
+
 Work is also ongoing to define the “skills we always need to have,”
 but this will have to wait until future versions of the kernel.
 
-カーネルは概念モデルである以上に、次のものを提供する。
+カーネルは単なる概念モデルではなく、以下を提供する。
+
 More than just a conceptual model, the kernel provides:
 
-チームにおいて、開発の進捗および努力(endeavors)の健全性を論じるための
-思考フレームワーク
+* チームにおいて、開発の進捗や取り組みの健全性（health of endeavors）を推論し判断するための思考フレームワーク
+
 A thinking framework for teams to reason about the progress they are
 making and the health of their endeavors;
 
-ソフトウェア開発の方法論とプラクティスに関する議論、改善、比較および共有の
-ための共通基盤
+* ソフトウェア開発の手法とプラクティスについて議論、改善、比較および共有するための共通基盤
+
 Common ground for the discussion, improvement, comparison, and sharing
 of software-engineering methods and practices;
 
-チームが、別々に定義されたり由来が違うプラクティスを集めることによって、
-チーム独自の仕事の仕方を組み立て、継続的に改善するためのフレームワーク
+* チームが、別々に定義され由来の異なるプラクティスを集めてチーム独自の仕事の仕方を組み立てて、継続的に改善するためのフレームワーク
+
 A framework for teams to assemble and continuously improve their way
 of working by the composition of separately defined, and sourced,
 practices;
 
-開発されたソフトウェアならびに開発に用いられた方法論の品質を評価する
-ための、事例非依存な計測指標を定義する基礎(foundation)
+* 開発されたソフトウェアならびに開発に用いられた方法論の品質を評価するための、事例非依存な計測指標を定義する基礎(foundation)
 A foundation for defining practice-independent measures to assess
 the quality of the software produced and the methods used to produce
 it; and
