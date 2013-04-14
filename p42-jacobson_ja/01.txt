@@ -124,3 +124,6 @@ requiring experienced software developers with knowledge of many of
 the existing methods. Defin- ing the theoretical basis is academic
 research and may take many years to reach a successful outcome.
 
+
+
+(2013/04/14 p42-jacobson_ja.pptx への取り込みを行いました)
