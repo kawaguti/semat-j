@@ -21,32 +21,27 @@ Work is also ongoing to define the “skills we always need to have,”
 but this will have to wait until future versions of the kernel.
 
 カーネルは単なる概念モデルではなく、以下を提供する。
+* チームにおいて、開発の進捗や取り組みの健全性（health of endeavors）を推論し判断するための思考フレームワーク
+* ソフトウェア開発の手法とプラクティスについて議論、改善、比較および共有するための共通基盤
+* チームが、別々に定義され由来の異なるプラクティスを集めてチーム独自の仕事の仕方を組み立てて、継続的に改善するためのフレームワーク
+* 開発されたソフトウェアならびに開発に用いられた方法論の品質を評価するための、事例非依存な計測指標を定義する基礎(foundation)
+* 最も重要なこととして、どこにいるのか、次に何をすべきなのか、そして
+どこを改善すべきなのかを、チームが理解することを支援する方法
 
 More than just a conceptual model, the kernel provides:
-
-* チームにおいて、開発の進捗や取り組みの健全性（health of endeavors）を推論し判断するための思考フレームワーク
-
-A thinking framework for teams to reason about the progress they are
+* A thinking framework for teams to reason about the progress they are
 making and the health of their endeavors;
-
-* ソフトウェア開発の手法とプラクティスについて議論、改善、比較および共有するための共通基盤
-
-Common ground for the discussion, improvement, comparison, and sharing
+* Common ground for the discussion, improvement, comparison, and sharing
 of software-engineering methods and practices;
-
-* チームが、別々に定義され由来の異なるプラクティスを集めてチーム独自の仕事の仕方を組み立てて、継続的に改善するためのフレームワーク
-
-A framework for teams to assemble and continuously improve their way
+* A framework for teams to assemble and continuously improve their way
 of working by the composition of separately defined, and sourced,
 practices;
-
-* 開発されたソフトウェアならびに開発に用いられた方法論の品質を評価するための、事例非依存な計測指標を定義する基礎(foundation)
-A foundation for defining practice-independent measures to assess
+* A foundation for defining practice-independent measures to assess
 the quality of the software produced and the methods used to produce
 it; and
-
-最も重要なこととして、どこにいるのか、次に何をすべきなのか、そして
-どこを改善すべきなのかを、チームが理解することを支援する方法
-Most importantly, a way of helping teams understand where they are,
+* Most importantly, a way of helping teams understand where they are,
 what they should do next, and where they need to improve.
 
+
+
+(2013/04/14 p42-jacobson_ja.pptx への取り込みを行いました)
