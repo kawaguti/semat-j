@@ -9,7 +9,11 @@ system is not yet usable by end users, however. You can use the kernel
 to do this in a number of ways. If you are using alpha state cards,
 then you can do a walk-through as follows:
 
-スミスや彼のチームが開発を始めて6週目であるとする。彼らは既にステークホルダに対して初期のシステムデモを示し、ステークホルダは喜んで価値あるフィードバックを与えてくれている。しかし、システムはまだユーザが使える状態にはない。ここで、カーネルを様々な方法で活用できる。もしアルファ状態のカードを用いている場合は、以下を一通り進められる。
+スミスや彼のチームが開発を始めて6週目であるとする。
+彼らは既にステークホルダに対して初期のシステムデモを示し、
+ステークホルダは喜んで価値あるフィードバックを与えてくれている。
+しかし、システムはまだユーザが使える状態にはない。ここで、カーネルを様々な方法で活用できる。
+もしアルファの状態を示すカードを用いている場合は、以下を一通り進められる。
 
 1. Lay out the cards for each alpha in a row on a table with the first
 state on the left and the final state on the right.
@@ -40,7 +44,7 @@ team agrees to use the immediate next alpha states to help establish
 the objectives of the next iteration, as shown in Figure 6.
 
 *カーネルによる行き先の決定
-現在のアルファの状態にチームが同意したら、以降の計画をガイドするために、メンバは次の望ましいターゲットの状態を議論する。チームは、次のイテレーションの目標を打ち立てるために、図6に示すように、すぐ隣のアルファの状態を用いることに同意したとしよう。
+現在のアルファの状態にチームが同意したら、以降の計画をガイドするために、メンバは次の望ましい目標状態を議論する。チームは、次のイテレーションの目標を打ち立てるために、図6に示すように、すぐ隣のアルファの状態を用いることに同意したとしよう。
 
 The name of the alpha state supplies a hint to understanding what
 needs to be achieved to reach a state. Team members can find out more
@@ -50,7 +54,7 @@ familiar with what is required to achieve each state. In this way the
 team learns about the kernel alphas at the same time as they determine
 their current state of development and their next target states.
 
-アルファの状態の名前は、当該状態に至るために必要な事柄を理解するためのヒントを与えてくれる。さらにチームメンバは、アルファ状態のチェックリストを読んで理解することでより多くを見出すことができる。各アルファを一つずつ確認することで、チームは各状態を達成するために必要な事柄をよく知るようになる。このようにして、チームはカーネルのアルファを学ぶと同時に、開発の現在の状態および次のターゲットとなる状態を決定する。
+アルファの状態名は、当該状態に至るために必要な事柄を理解するためのヒントを与えてくれる。さらにチームメンバは、アルファ状態のチェックリストを読んで理解することでより多くを見出すことができる。各アルファを一つずつ確認することで、チームは各状態を達成するために必要な事柄をよく知るようになる。このようにして、チームはカーネルのアルファを学ぶと同時に、開発の現在の状態および次の目標となる状態を決定する。
 
 *Determine how to get there with the kernel.
 Smith and his team look at the next target states and agree that they
@@ -63,14 +67,14 @@ the missing requirementitems necessary to achieve the requirements:
 addressed state.
 
 *カーネルによる行き方の決定
-スミスと彼のチームは次のターゲットとなる状態を確認し、優先順位付けの必要性について合意した。そこで優先順位として、まず第一に仕事の仕方「うまく働けている」とし、第二にソフトウェアシステム「利用可能となっている」とし、最後に、要求「十分に扱えている」とすることとした。その理由は簡単で、仕事の仕方がうまくいっていなければ、ソフトウェアシステムを利用可能とすることが妨げられてしまうだろう。さらに、チームは要求満足のために不足している要求事項を取り扱うよう「十分に扱えている」の優先度について同意した。
+スミスと彼のチームは次の目標状態を確認し、優先順位付けの必要性について合意した。そこで優先順位として、まず第一に仕事の仕方「うまく働けている」とし、第二にソフトウェアシステム「利用可能となっている」とし、最後に、要求「十分に扱えている」とすることとした。その理由は簡単で、仕事の仕方がうまくいっていなければ、ソフトウェアシステムを利用可能とすることが妨げられてしまうだろう。さらに、チームは要求満足のために不足している要求事項を取り扱うよう「十分に扱えている」の優先度について同意した。
 
 Smith and his team next discuss what needs to be done to achieve these
 states, as shown in the accompanying table. By going through the
 target alpha states, Smith is able to determine a set of objectives
 and tasks for the next iteration.
 
-スミスと彼のチームは続いて、図6下の表に示すように、それらの状態に達するために必要な事柄を議論した。ターゲットとなるアルファの状態を確認する中で、スミスは次のイテレーションにおける目標とタスクを決定できた。
+スミスと彼のチームは続いて、図6下の表に示すように、それらの状態に達するために必要な事柄を議論した。目標となるアルファの状態を確認する中で、スミスは次のイテレーションにおける目標とタスクを決定できた。
 
 *How the kernel helps in planning iterations.
 A good plan must be inclusive, meaning that it includes all essential
