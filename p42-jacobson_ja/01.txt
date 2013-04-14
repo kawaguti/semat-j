@@ -80,7 +80,7 @@ you will see in this article and in a soon-to-be-published book (The
 Essence of Software Engineering—Applying the SEMAT Kernel),6 SEMAT
 supporters are very keen on new ideas.
 
-SEMATの支持者が反対しているのは、ただソリューションが流行っているから、あるいは、単なる政治的な理由や同僚からの圧力によって、不適切なソリューションを採用する人々の非リーン（non-lean）、非アジャイル（non-agile）な行動である。
+SEMATの支持者が反対しているのは「新しいアイディア」ではない。ただソリューションが流行っているから、あるいは、単なる政治的な理由や同僚からの圧力によって、不適切なソリューションを採用する人々の非リーン（non-lean）、非アジャイル（non-agile）な行動である。
 
 What they are against is the non- lean, non-agile behavior that comes
 from people adopting inappropriate solutions just because they believe
