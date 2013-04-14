@@ -1,19 +1,15 @@
-共通基盤の能力
+共通基盤の「力」
 The Power of the Common Ground
 
-SEMATの最初のステップは、ソフトウェア開発における共通基盤(common ground)を確認することで
-あった。この共通基盤は、すべてのソフトウェア開発活動において普遍的な必須
-要素のカーネル(kernel)と、方法論(methods)とプラクティス(practice)とを記述するためのシンプルな言語として示さ
-れる。
+SEMATの第一歩は、ソフトウェア開発における共通基盤（common ground）を捉えることであった。この共通基盤は、すべてのソフトウェア開発活動において普遍的な必須要素のカーネル（核; kernel）、および、手法やプラクティスを記述するためのシンプルな言語として示される。
+
 SEMAT's first step was to identify a common ground for software
 engineering. This common ground is manifested as a kernel of essential
 elements that are universal to all software-development efforts, and
 a simple language for describing methods and practices.
 
-カーネルは、SEMAT OMG（Object Management Group）提案で初めて公開された。
-図1と図2で示すように、カーネルはソフトウェアシステムを開発するときに
-「我々が常に仕事で扱うこと(things we always work with)」と「我々が常に
-行うこと(things we always do)」とを、それぞれ少数含んでいる。
+カーネルは、SEMATのOMG（Object Management Group）に対する提案の中で初めて公開された。図1と図2に示すように、カーネルはソフトウェアシステムを開発するときに「我々が常に仕事で扱うこと（things we always work with）」と「我々が常に行うこと(things we always do)」を少し含んでいる。
+
 The kernel was first published in the SEMAT OMG (Object Management
 Group) submission. As shown in figures 1 and 2, the kernel contains
 a small number of “things we always work with” and “things we
