@@ -3,7 +3,7 @@ ACM queue( queue.acm.org) 記事
 --------------------------------------------------------------------------------------
 A thinking framework in the form of an actional kernel.
 
-思考フレームワークを「アクショナブル・カーネル」として提示する。
+思考フレームワークを「アクション可能なカーネル」として提示する。
 --------------------------------------------------------------------------------------
 by Iver Jacobson, Pan-Wei NG, Paul E. Mcmahon,
 Ian Spence, and Svante Lidman
@@ -27,7 +27,7 @@ software systems, satisfying their stakeholders, addressing their
 risks, and improving their ways of working.
 
 そのためには、現在の仕事の仕方と、採用しようとする新しいアイディアのギャップを橋渡しする効果的な思考フレームワーク（thinking
-framework）が必要である。この記事は、そのような思考フレームワークを「アクショナブル・カーネル（actionable
+framework）が必要である。この記事は、そのような思考フレームワークを「アクションン可能なカーネル（actionable
 kernel）」の形で提示することで、様々なリスクのバランスをとり、仕事の仕方を改善しようとするチームを支援する。
 
 For that, they need an effective thinking framework that bridges the
