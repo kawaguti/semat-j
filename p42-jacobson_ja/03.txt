@@ -9,10 +9,10 @@ three unique features of the kernel: it is actionable; it is
 extensible; and it is practical.
 
 カーネルを、ソフトウェアエンジニアリングの単なる概念モデル以上とするものは何か？何が新しいのか？それは、基礎を成す原則（図3）であり、原則が次の3つの特徴をカーネルにもたらしている:
-アクショナブルなこと（actionable; 実施・実践可能なこと）、拡張可能なこと（extensible）、および、実践的なこと（practical）である。
+アクション可能なこと（actionable; 実施・実行可能なこと）、拡張可能なこと（extensible）、および、実践的なこと（practical）である。
 
 *The kernel is actionable.
-*カーネルはアクショナブル（実施・実践可能）である。
+*カーネルはアクション可能である。
 
 A unique feature of the kernel is the way that it handles the “things
 to work with.”These are captured as alphas rather than work products
@@ -33,8 +33,7 @@ the criteria needed to reach the state. These states make the kernel
 actionable and enable it to guide the behavior of software-development
 teams.
 
-アルファはシンプルに、進展や健全性を表す状態集合として特徴付けられる。例えばソフトウェアシステムは、選択されたアーキテクチャにおける次の状態間を遷移する:
-（必要な内容が）明らかとなり確認できている（demonstrable）、利用可能となっている（usable）、運用の準備ができている（ready）、運用できている（operational）、終了している（retired）。各状態には、当該状態に至る際に満足すべき基準を指定したチェックリストがある。それらの状態によって、カーネルはアクショナブルなものとなり、ソフトウェア開発チームの振る舞いをガイドできるようになる。
+アルファはシンプルに、進展や健全性を表す状態集合として特徴付けられる。例えばソフトウェアシステムは、選択されたアーキテクチャにおける次の状態間を遷移する: 論証完了（demonstrable）、使用可能（usable）、準備完了（ready）、運用（operational）、退役（retired）。各状態には、当該状態に至る際に満足すべき基準を指定したチェックリストがある。それらの状態によって、カーネルはアクション可能なものとなり、ソフトウェア開発チームの振る舞いをガイドできるようになる。
 
 The kernel presents software development not as a linear process but
 as a network of collaborating elements that need to be balanced and
