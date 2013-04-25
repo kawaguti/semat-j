@@ -9,7 +9,7 @@ system is not yet usable by end users, however. You can use the kernel
 to do this in a number of ways. If you are using alpha state cards,
 then you can do a walk-through as follows:
 
-スミスや彼のチームが開発を始めて6週目であるとする。彼らは既にステークホルダーに対して初期のシステムデモを示し、ステークホルダーは喜んで価値あるフィードバックを与えてくれている。しかし、システムはまだユーザが使える状態にはない。ここで、カーネルを様々な方法で活用できる。もしアルファの状態を示すカードを用いている場合は、以下を一通り進められる。
+スミスや彼のチームが開発を始めて6週目であるとする。彼らは既にステークホルダに対して初期のシステムデモを示し、ステークホルダは喜んで価値あるフィードバックを与えてくれている。しかし、システムはまだユーザが使える状態にはない。ここで、カーネルを様々な方法で活用できる。もしアルファの状態を示すカードを用いている場合は、以下を一通り進められる。
 
 1. Lay out the cards for each alpha in a row on a table with the first
 state on the left and the final state on the right.
